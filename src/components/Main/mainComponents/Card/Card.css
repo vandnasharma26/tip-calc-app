@@ -1,0 +1,26 @@
+.card {
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    margin: 25px 0;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 40px;
+    /* box-sizing: border-box; */
+}
+
+@media screen and (min-width: 900px) {
+    .card {
+        width: 47.5%;
+        display: flex;
+        margin: auto 0 auto 25px;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 30px 25px 30px;
+        position: relative;
+        bottom: 12px;
+    }
+
+    .btn {
+        padding-top: 80px;
+    }
+} 

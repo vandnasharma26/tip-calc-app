@@ -1,0 +1,25 @@
+button {
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+}
+
+button:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+    transition: 0.5s ease-in-out;
+}
+
+button, .custom-button {
+    width: 100%;
+    height: 45px;
+    font-size: x-large;
+}
+
+.custom-button {
+    padding: 5px;
+    margin: auto;
+}
+
+.custom-button::placeholder {
+    text-align: center;
+} 

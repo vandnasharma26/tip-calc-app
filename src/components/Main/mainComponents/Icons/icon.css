@@ -1,0 +1,17 @@
+.dollar {
+    background-image: url("/public/images/icon-dollar.svg");
+}
+
+.person {
+    background-image: url("/public/images/icon-person.svg");
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 15px 25px;
+}
